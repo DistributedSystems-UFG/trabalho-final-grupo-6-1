@@ -1,0 +1,17 @@
+{
+  "name": "game-gateway",
+  "version": "1.0.0",
+  "description": "Game Gateway for Socket.io and routing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "jsonwebtoken": "^9.0.2",
+    "@grpc/grpc-js": "^1.10.0",
+    "@grpc/proto-loader": "^0.7.10"
+  }
+}

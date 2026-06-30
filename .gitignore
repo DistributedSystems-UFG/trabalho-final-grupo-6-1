@@ -1,0 +1,33 @@
+# .gitignore
+
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+
+# Python (Score Service)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Diretórios do .NET
+auth-service/bin/
+auth-service/obj/
+
+# Variáveis de Ambiente e Arquivos Locais
+.env
+.env.local
+# Config preenchida do deploy AWS (segredos + IPs) — versionar só o .example
+deploy/aws/env.aws
+# Inventário preenchido do deploy automático (chave/IPs) e logs por máquina
+deploy/aws/maquinas.aws
+deploy/aws/.deploy-logs/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios da IDE
+.vscode/
+.vs/
+.idea/
